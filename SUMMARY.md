@@ -1,3 +1,3 @@
 # Table of Content
 
-*[init](init.md)
+* [init](init.md)
