@@ -1,3 +1,5 @@
-# Table of Content
+# Summary
 
-* [init](init.md)
+* [Introduction](README.md)
+* [init](initmd.md)
+
