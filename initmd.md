@@ -29,3 +29,4 @@ self.nameSpace.reg('graph.CACHE_CI');
 - js inject by gulp
 ``` js/plugins.js  js/graph.js js/assets.js js/app.js
 ```
+
