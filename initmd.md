@@ -25,3 +25,7 @@ self.nameSpace.reg('graph.CACHE_CI');
 ```
 - ext config is definded in ```define.js```
 ```gulp.src(['./src/define/*.js', './src/define/ext/DEFINE_MENU.js', './src/define/ext/*.js'])```
+
+- js inject by gulp
+``` js/plugins.js  js/graph.js js/assets.js js/app.js
+```
