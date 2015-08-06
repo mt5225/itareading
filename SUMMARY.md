@@ -1,6 +1,7 @@
 # Summary
 
-* [Introduction](README.md)
-* [init](initmd.md)
-* [build system](gulp.md)
-* [plugin.js](pluginjs.md)
+* [Introduction](README)
+* [init](initmd)
+* [build system](gulp)
+* [defind.js](define)
+* [plugin.js](pluginjs)
