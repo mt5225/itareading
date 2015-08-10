@@ -5,6 +5,32 @@
 ```
 var taskArr = ['livereload', 'sass', 'define', 'Timeline', 'Toolbar', 'contextMenuLibs', 'utils', 'inject', 'watch'];
 ```
+**global vars registered as header and footer** (timeline.js for example)
+
+```
+var globalItems = [
+	'Timeline'
+];
+
+var predef = [
+    'graph'
+];
+
+
+var head = [
+        banner,
+        gap.getGlobal(globalItems),
+        '(function(graph){',
+        "'use strict';",
+        ''
+    ].join('\n\n\n'),
+
+    foot = [
+        '',
+        'graph.Timeline = Timeline;',
+        '})(nameSpace.reg(\'graph\'));'
+    ].join('\n\n\n');
+```
 
 ## step 1. sass.js
 
@@ -25,3 +51,9 @@ gulp.task('define', function(){
 ```
 
 ## step 3. Timeline.js
+register **timeline** as **graph.Timeline**
+```
+gulp.src(['./src/Timeline/__init__.js', './src/Timeline/**/*.js'])
+```
+
+## step 4. Toolbar.js
