@@ -1,6 +1,17 @@
-#glup tasks overview
+#glup tasks overview, from ./gulp/server.js
 
-1. define
+#overall steps
+
+```
+var taskArr = ['livereload', 'sass', 'define', 'Timeline', 'Toolbar', 'contextMenuLibs', 'utils', 'inject', 'watch'];
+```
+
+## step 1. sass.js
+
+```gulp.task('sass', function () {
+	var srcPath = './src/scss/*.scss';}```
+
+## step 2. define.js
 generate define.js to bootstrap app
 ```
 gulp.task('define', function(){
@@ -12,3 +23,5 @@ gulp.task('define', function(){
         .pipe(gulp.dest('tmp/config'));
 }); 
 ```
+
+## step 3. Timeline.js
