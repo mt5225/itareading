@@ -63,10 +63,20 @@ register **toolbar** as **graph.Toolbar**
 ```
 
 ## step 5. contextMenuLibs.js
-
+register as **graph.contextMenuLibs**
 ```
 var globalItems = [
     'mxImage', 'mxClipboard', 'saveAs', 'mxHierarchicalLayout', 'mxConstants', 'mxCircleLayout', 'mxFastOrganicLayout',
     'mxParallelEdgeLayout', 'mxStackLayout'
+];
+```
+
+## step 6. util.js
+register as **graph.utils**
+```
+var globalItems = [
+    'Editor', 'mxUtils', 'STENCIL_PATH', 'mxEditor', 'mxConnectionHandler', 'mxImage',
+    'mxEvent', 'IMAGE_PATH', 'mxGraph',  'md5', 'Handlebars',
+    'mxConstants', 'mxMorphing', 'mxEventObject', 'urlParams', 'mxHierarchicalLayout'
 ];
 ```
