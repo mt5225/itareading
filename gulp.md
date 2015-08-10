@@ -57,3 +57,16 @@ gulp.src(['./src/Timeline/__init__.js', './src/Timeline/**/*.js'])
 ```
 
 ## step 4. Toolbar.js
+register **toolbar** as **graph.Toolbar**
+```
+ gulp.src(['./src/Toolbar/__init__.js', './src/Toolbar/*.js','./src/Toolbar/lib/**/*.js'])
+```
+
+## step 5. contextMenuLibs.js
+
+```
+var globalItems = [
+    'mxImage', 'mxClipboard', 'saveAs', 'mxHierarchicalLayout', 'mxConstants', 'mxCircleLayout', 'mxFastOrganicLayout',
+    'mxParallelEdgeLayout', 'mxStackLayout'
+];
+```
